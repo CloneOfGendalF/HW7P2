@@ -25,9 +25,9 @@ public class Main {
         boromir.setDmg(20);
         boromir.setSpt("Атакую цель!");
 
-        boromir.applySuperAbility();
-        arven.applySuperAbility();
-        gendalf.applySuperAbility();
+        boromir.applySuperAbility("Spt");
+        arven.applySuperAbility("Spt");
+        gendalf.applySuperAbility("Spt");
 
         Hero[] heroes = {gendalf,boromir,arven};
 

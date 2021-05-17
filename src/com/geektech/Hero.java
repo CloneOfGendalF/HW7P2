@@ -31,9 +31,7 @@ public abstract class Hero implements HavingSuperAbility {
         }
 
         @Override
-        public void applySuperAbility() {
+        public void applySuperAbility(String spt) {
 
         }
-
-        public abstract void applySuperAbility(String spt);
 }

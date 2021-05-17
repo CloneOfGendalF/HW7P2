@@ -3,5 +3,5 @@ package com.geektech;
 public interface HavingSuperAbility {
 
 
-      void  applySuperAbility();
+      void  applySuperAbility(String spt);
 }
